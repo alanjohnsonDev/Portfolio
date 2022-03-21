@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AlanJohnson Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+        +Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="logo.jpg" alt="The logo for the website">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Alan Johnson</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="Professional Picture.jpg" alt="a picture of Alan Johnson smiling" class="intro__img">
+        </section>
+
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I Do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>Using HTML, CSS, and JavaScript to provide highly interative websites.  Responsive to fit any screen, big or small.</p>
+                </div> <!-- / service -->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I Am</h2>
+            <p class="section__subtitle section__subtitle--about">Developer based out of Maryland</p>
+
+            <div class="about-me__body">
+                <p>Hi, my name is Alan Johnson.  I am a Web Developer out of Hollywood, Maryland.  
+                    Currently, I am working on websites to boost my knowledge and proficiency in CSS and JavaScript.  
+                    Coding started as a hobby for me to relieve stress, but I have come to realize that I really enjoy it
+                    and want to work within a company working on a bigger project.</p>
+                <p>I enjoy playing video games on the weekends and I have the cutest puppy named Callie, she is a Beagle mixed with German Shepard.
+                    I am an extremely hard worker that will do anything for the company I am working for.
+                    I am very dedicated and willing to go the extra mile for something I love to do, which is coding websites or applications.
+                    If you would like to get work with me, you can reach me by email or on LinkedIn.
+                </p>
+            </div>
+
+            <img src="Professional Picture.jpg" alt="Alan smiling" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My Work</h2>
+            <p class="section__subtitle">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <a href="portfolio-item1.html" class="portfolio__item">
+                    <img src="Project1.png" alt="" class="portfolio__img"> <!-- Add Portfolio image / Add button for repository on GitHub -->
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="" alt="" class="portfolio__img"> <!-- Add Portfolio image / Add button for repository on GitHub -->
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="" alt="" class="portfolio__img"> <!-- Add Portfolio image / Add button for repository on GitHub -->
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="" alt="" class="portfolio__img"> <!-- Add Portfolio image / Add button for repository on GitHub -->
+                </a>
+            </div>
+
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Replace with your own email address -->
+            <a href="mailto:alanjohnson.dev@gmail.com" class="footer__link">alanjohnson.dev@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/alanjohnsonDev" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/codingwithAJ" target="_blank">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/alan-johnson-aa74b915b/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
