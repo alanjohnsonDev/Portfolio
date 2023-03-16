@@ -1,0 +1,428 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    height: 100%;
+
+    background-image: url('codingbackground.jfif');
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: stretch;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Navigation Bar */
+
+.top-nav {
+    background-color: black;
+}
+
+.navbar {
+    text-align: center;
+    margin-right: 210px;
+}
+
+.navbar a {
+    padding: 30px 30px;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgba(21, 255, 251, 0.90);
+}
+
+.navbar button {
+    padding: 12px 10px;
+    margin-left: 40px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: transparent;
+    background-color: black;
+}
+
+.navbar button a {
+    color:rgba(21, 255, 251, 0.90);
+}
+
+.name {
+    width: 550px;
+}
+
+.name h3 {
+    font-size: 35px;
+    color: white;
+    margin-left: 150px;
+    padding-top: 150px;
+}
+
+
+/* Title Section */
+
+.top-title {
+    background: linear-gradient(
+        45deg,
+        black 0%,
+        black 60.5%,
+        rgba(21, 255, 251) 60.5%,
+        rgba(21, 255, 251) 100%
+    );
+
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.title {
+    font-size: 65px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: rgba(0, 255, 251, 0.946);
+}
+
+.title-paragraph {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.professional-picture {
+    margin-top: -55px;
+    border-radius: 12%;
+    width: 350px;
+    height: 450px;
+    box-shadow: 5px 8px 75px rgba(21, 255, 251, 0.60);
+}
+
+.title-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-buttons {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.title-buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+.title-buttons .fa {
+    font-size: 32px;
+    text-decoration: none;
+    color: rgba(21, 255, 251, 0.90);
+    padding-right: 35px;
+}
+
+.button-cv {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    padding: 8px 6px;
+    width: 150px;
+    margin-right: 50px;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color:rgba(21, 255, 251, 0.7);
+}
+
+.button-contact {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    padding: 8px 6px;
+    width: 150px;
+    margin-right: 50px;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+/* About Section */
+
+.about-section {
+    background: linear-gradient(
+        135deg,
+        rgba(21, 255, 251) 0%,
+        rgba(21, 255, 251) 60.5%,
+        black 60.5%,
+        black 100%
+    );
+
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.about-container h2 {
+    color: black;
+    font-size: 35px;
+    padding-top: 60px;
+    margin-left: 50px;
+    font-weight: 400;
+}
+
+.about-paragraph strong {
+    background-color: black;
+    color: white;
+    letter-spacing: 0.15em;
+}
+
+.about-paragraph {
+    font-size: 23px;
+    margin-left: 70px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 70px;
+    height: 165px;
+}
+
+.skills li {
+    list-style: none;
+    font-size: 24px;
+}
+
+.skills1, .skills2, .skills3 {
+    border-right: 1px solid black;
+}
+
+
+.skills1, .skills2, .skills3, .skills4 {
+    
+    padding: 15px;
+    background-color: rgba(185, 185, 185, 0.337);
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coding-picture img {
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-right: 125px;
+}
+
+
+/* Projects Section */
+
+.projects-section {
+    background: linear-gradient(
+        35deg,
+        rgba(21, 255, 251) 0%,
+        rgba(21, 255, 251) 80%,
+        black 80%,
+        black 100%
+    );
+
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.projects-title {
+    width: 400px;
+    height: 100px;
+    float: right;
+}
+
+.projects-title h2 {
+    font-size: 70px;
+    color: white;
+    margin-right: 30px;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.projects-section .projects-container {
+    margin-right: 0px;
+}
+
+.projects-container {
+    width: 1520px;
+    height: 600px;
+    display: flex;
+}
+
+
+
+.project-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 8px 5px 20px black;
+    width: 525px;
+    height: 450px;
+    margin-top: 75px;
+    margin-left: 145px;
+}
+
+.project-card a {
+    display: none;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 187px;
+    margin-top: 120px;
+    z-index: 5;
+}
+
+.project-card:hover a {
+    display: block;
+    cursor: pointer;
+}
+
+.project-card img {
+    width: 525px;
+    height: 285px;
+    border-radius: 10px;
+    filter: blur(0);
+    transition: 0.5s ease-in-out;
+}
+
+.project-card:hover img {
+    filter: blur(2px);
+    opacity: calc(30%);
+    transition: 0.5s ease-in-out;
+}
+
+.project-card h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+.project-card p {
+    text-align: center;
+    margin-top: 8px;
+    color: white;
+}
+
+
+/* Individual Projects */
+
+.project-container {
+    background: linear-gradient(
+        45deg,
+        black 0%,
+        black 60.5%,
+        rgba(21, 255, 251) 60.5%,
+        rgba(21, 255, 251) 100%
+    );
+
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.project-container h2 {
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.project-container iframe {
+    margin-left: 250px;
+}
+
+
+/* Contact Section */
+
+.contact-section {
+    background: linear-gradient(
+        135deg,
+        rgba(21, 255, 251) 0%,
+        rgba(21, 255, 251) 60.5%,
+        black 60.5%,
+        black 100%
+    );
+
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.contact-title h2 {
+    color: black;
+    font-size: 35px;
+    padding-top: 40px;
+    margin-left: 50px;
+    font-weight: 400;
+}
+
+.contact-container {
+    margin-top: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(23, 23, 23);
+    width: 265px;
+    margin-left: 120px;
+    color: white;
+    box-shadow: 0px 0px 20px black;
+    padding: 30px;
+}
+
+.contact-container label {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.contact-container input {
+    border-radius: 7px;
+    padding: 7px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+.contact-container h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.radio-reasons {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.contact-container textarea {
+    border-radius: 7px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+}
+
+.coding-picture2 img {
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: -375px;
+    margin-right: 125px;
+}
