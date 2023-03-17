@@ -591,6 +591,16 @@ body {
     font-size: 14px;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container .submit {
+    font-size: 20px;
+    background-color:rgba(0, 255, 251, 0.946);
+}
+
 .coding-picture2 img {
     width: 300px;
     height: 300px;
