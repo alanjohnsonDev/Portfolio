@@ -608,3 +608,26 @@ body {
     margin-top: -375px;
     margin-right: 125px;
 }
+
+
+/* Success Page */
+
+.success-text {
+    width: 462px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.success-logo {
+    display: flex;
+    margin-left: 305px;
+    margin-top: -450px;
+}
+
+.success-logo img {
+    width: 300px;
+    height: 300px;
+}
