@@ -171,7 +171,7 @@ body {
 
 .about-container h2 {
     color: black;
-    font-size: 35px;
+    font-size: 50px;
     padding-top: 60px;
     margin-left: 50px;
     font-weight: 400;
@@ -254,7 +254,7 @@ body {
 }
 
 .projects-title h2 {
-    font-size: 70px;
+    font-size: 50px;
     color: white;
     margin-right: 30px;
     padding-top: 10px;
@@ -528,7 +528,7 @@ body {
 
 .contact-title h2 {
     color: black;
-    font-size: 35px;
+    font-size: 50px;
     padding-top: 40px;
     margin-left: 50px;
     font-weight: 400;
